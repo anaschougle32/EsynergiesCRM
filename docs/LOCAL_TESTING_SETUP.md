@@ -1,0 +1,48 @@
+# Local Development Environment
+NODE_ENV=development
+VITE_APP_ENV=local
+
+# Base URLs
+VITE_BASE_URL=http://localhost:5173
+VITE_API_BASE_URL=http://localhost:5173/api
+VITE_WEBHOOK_BASE_URL=https://your-ngrok-url.ngrok.io
+
+# Database (Supabase)
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
+
+# Facebook/Instagram (Test App)
+VITE_FACEBOOK_APP_ID=your_test_facebook_app_id
+FACEBOOK_APP_SECRET=your_test_facebook_app_secret
+FACEBOOK_VERIFY_TOKEN=fb_verify_token_local_123
+FACEBOOK_ACCESS_TOKEN=your_test_access_token
+
+# Google Ads (Test)
+VITE_GOOGLE_ADS_CLIENT_ID=your_test_oauth_client_id
+GOOGLE_ADS_CLIENT_SECRET=your_test_oauth_client_secret
+GOOGLE_ADS_DEVELOPER_TOKEN=your_test_developer_token
+GOOGLE_ADS_WEBHOOK_SECRET=google_webhook_secret_local
+
+# LinkedIn (Test)
+VITE_LINKEDIN_CLIENT_ID=your_test_linkedin_client_id
+LINKEDIN_CLIENT_SECRET=your_test_linkedin_client_secret
+
+# WhatsApp Business (Test)
+WHATSAPP_ACCESS_TOKEN=your_test_whatsapp_token
+WHATSAPP_PHONE_NUMBER_ID=your_test_phone_number_id
+WHATSAPP_WABA_ID=your_test_business_account_id
+WHATSAPP_VERIFY_TOKEN=wa_verify_token_local_456
+WHATSAPP_API_VERSION=18.0
+
+# Razorpay (Test Mode)
+VITE_RAZORPAY_KEY_ID=rzp_test_your_key_id
+RAZORPAY_KEY_SECRET=your_test_razorpay_secret
+RAZORPAY_WEBHOOK_SECRET=razorpay_webhook_secret_local
+
+# JWT & Security
+JWT_SECRET=your_local_jwt_secret_key_very_long_and_secure
+ENCRYPTION_KEY=your_local_encryption_key_32_chars
+
+# Ngrok (for webhook testing)
+NGROK_AUTH_TOKEN=your_ngrok_auth_token 
